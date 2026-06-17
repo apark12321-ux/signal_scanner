@@ -1,0 +1,21 @@
+{
+  "name": "signal-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "scan": "python scripts/scan.py --output public/data/latest.json",
+    "scan:sample": "python scripts/scan.py --sample --output public/data/latest.json"
+  },
+  "dependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
+  }
+}
