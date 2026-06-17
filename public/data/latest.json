@@ -1,0 +1,48 @@
+{
+  "generated_at": "sample",
+  "scanned_count": 2,
+  "candidates": [
+    {
+      "rank": 1,
+      "code": "403870",
+      "name": "HPSP",
+      "market": "KOSDAQ",
+      "close": 83500,
+      "change_pct": 16.78,
+      "volume": 33421000,
+      "volume_ratio": 4.2,
+      "signal_count": 4,
+      "cluster_type": "4SAME",
+      "score": 98.5,
+      "ma_status": "MA5/10/20/60/120 상방",
+      "last_signal_date": "20260615",
+      "signals_recent": {
+        "CCI": ["20260615"],
+        "DMI": ["20260615"],
+        "MACD": ["20260615"],
+        "STOCH": ["20260615"]
+      }
+    },
+    {
+      "rank": 2,
+      "code": "000660",
+      "name": "샘플반도체",
+      "market": "KOSPI",
+      "close": 185000,
+      "change_pct": 6.2,
+      "volume": 9200000,
+      "volume_ratio": 2.8,
+      "signal_count": 4,
+      "cluster_type": "3+1",
+      "score": 87.2,
+      "ma_status": "MA5/10/20/60/120 상방",
+      "last_signal_date": "20260617",
+      "signals_recent": {
+        "CCI": ["20260616"],
+        "DMI": ["20260617"],
+        "MACD": ["20260616"],
+        "STOCH": ["20260616"]
+      }
+    }
+  ]
+}
